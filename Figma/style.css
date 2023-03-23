@@ -1,0 +1,286 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+body {
+  margin:0;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  display: block;
+}
+
+section {
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* header styles start */
+.header {
+    top:0;
+    background: #066;
+    position: fixed;
+    width: 100% ;
+    height: 84px;
+}
+
+.wrapper {
+    padding-left: 55px;
+    padding-right: 54px;
+    max-width:1219px;
+    margin: 0px auto;
+}
+
+
+.logo__link {
+  float:left;
+  margin-top: 20px;
+}
+
+.menu {
+  float: right;
+  margin-top: 28px;
+}
+
+
+.header__link {
+  font-size: 24px;
+  line-height: 28px;
+  color: white;
+  text-decoration: none;
+  margin-right: 8px;
+  transition: transform.6s ease;
+}
+
+a:hover, nav:hover{
+    transform: scale(1.06);
+    color: greenyellow;
+}
+img:hover{
+  /*color: greenyellow;*/
+  transform: scale(1.06);
+}
+
+/* header styles end */
+
+ /*2 block with picture*/
+
+.main__top {
+    width:100%;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-image: url("static/image (1).jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__top__text {
+    color:white;
+    font-size: 72px;
+    line-height: 84px;
+}
+
+
+/*end 2 block*/
+
+
+/*start 3 block*/
+
+.main_center {
+    width: 100%;
+    background: #EEEEEE;
+    padding-bottom: 92px;
+    padding-top: 48px;
+}
+
+.center1_text {
+    margin-bottom: 16px;
+    margin-top: auto;
+    font-size: 64px;
+    line-height: 75px;
+    color: #007765;
+}
+
+.center2 {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.center2_text {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: black;
+    text-align: left;
+}
+
+/*end 3 block*/
+
+
+/*start 4 block*/
+
+.second__center {
+    padding-top: 128px;
+    padding-bottom: 127px;
+    box-sizing: border-box;
+    background-image: url("static/image (3).jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.blue__container {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.blue__text {
+    font-size: 48px;
+    line-height: 56px;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+/*end 4 block*/
+
+/*start 5 block*/
+
+.introducing {
+    padding-top: 48px;
+    padding-bottom: 92px;
+    background: powderblue;
+}
+
+.main__container {
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.h1 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 64px;
+    line-height: 75px;
+    color: #007765;
+}
+
+.logo {
+    float: left;
+    padding-right: 48px;
+}
+
+.logo__text {
+    max-width: 1110px;
+
+}
+.text__logo:last-child {
+    margin-bottom: 0px;
+}
+
+.text__logo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    text-align: left;
+}
+
+.team {
+    padding-top: 58px;
+    padding-bottom: 34px;
+    background: #EEEEEE;;
+}
+
+.team__container {
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.people {
+    margin-top: 16px;
+
+}
+.foto {
+    width: 168px;
+    height: 168px;
+    border-style: none;
+}
+.human {
+    display: inline-block;
+    margin-right: 30px;
+    width: 350px;
+    height: 283px;
+    margin-bottom: 30px;
+}
+
+
+.name {
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+
+
+.job__title {
+    margin-top: 1px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+/*footer*/
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 62px;
+    background: #333333;
+}
+
+.footer__text {
+    margin: 0;
+    max-width:540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+/*плюшки при наведении на текст*/
+
+
+
